@@ -10,7 +10,7 @@ function Hero() {
           <h1>Dojo Aguias da Bahia</h1>
           <span>Venha fazer parte da família</span>
         </article>
-        <button>
+        <button type='button'>
           Entre em contato
         </button>
       </article>
