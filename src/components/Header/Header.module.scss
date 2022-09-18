@@ -1,22 +1,20 @@
 .header {
   width: 100%;
-  height: auto;
   background-color: rgba(0,0,0,0.0);
   align-items: center;
-  padding: 1rem;
   display: flex;
+  transition: all 0.5s;
   position: fixed;
   color: white;
   justify-content: center;
-  z-index: 1;
+  z-index: 99;
   flex-direction: column;
-
 }
 
 .header_container {
   max-width: 1720px;
   display: flex;
-  margin-top: 2rem;
+  transition: all 0.5s;
 
   a {
     margin: 15px;
@@ -28,4 +26,11 @@
   a:hover {
     filter: brightness(50%);
   }
+}
+
+.header_footer_bar {
+  width: 30%;
+  height: 1px;
+  background-color: white;
+  transition: all 0.5s;
 }

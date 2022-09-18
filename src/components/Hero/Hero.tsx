@@ -1,5 +1,4 @@
 import React from 'react';
-import { ContactBtn } from '../Buttons/Buttons';
 import style from './hero.module.scss'
 
 function Hero() {
@@ -11,9 +10,9 @@ function Hero() {
           <h1>Dojo Aguias da Bahia</h1>
           <span>Venha fazer parte da família</span>
         </article>
-        <ContactBtn>
+        <button>
           Entre em contato
-        </ContactBtn>
+        </button>
       </article>
     </section>
   )

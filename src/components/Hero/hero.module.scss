@@ -30,9 +30,45 @@
     font-size: 2rem;
     margin-top: -3rem;
   }
+
+  button {
+    display: flex;
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    font-weight: 600;
+
+  }
+    
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+
+
 }
 
 .herro_message {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 575px) {
+.hero_content {
+  margin-left: 0px;
+  padding: 2rem;
+  h1 {
+    font-size: 2rem;
+  }
+  span {
+    font-size: 1.3rem;
+    margin-top: -2rem;
+  }
+}
 }
