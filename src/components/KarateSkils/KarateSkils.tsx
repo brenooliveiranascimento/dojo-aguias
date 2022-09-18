@@ -15,8 +15,8 @@ function KarateSkils() {
   <section className={styles.karate_skils_caintainer}>
     <section className={styles.skil_block_cintainer}>
       {
-        karateIs.map((karateInf) => (
-          <SkillCard karateInf={ karateInf.skilBody }/>
+        karateIs.map((karateInf, index) => (
+          <SkillCard karateInf={ karateInf.skilBody } index={index+3}/>
         ))
       }
     </section>

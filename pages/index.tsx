@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import Hero from '../src/components/Hero/Hero'
 import Header from '../src/components/Header/Header'
 import KarateSkils from '../src/components/KarateSkils/KarateSkils'
+import KarateBenefits from '../src/components/KarateBenefits/KarateBenefits'
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Header/>
       <Hero/>
       <KarateSkils/>
+      <KarateBenefits/>
     </main>
   )
 }
