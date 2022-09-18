@@ -1,4 +1,5 @@
 import React from 'react';
+import KarateSkils from '../KarateSkils/KarateSkils';
 import style from './hero.module.scss'
 
 function Hero() {

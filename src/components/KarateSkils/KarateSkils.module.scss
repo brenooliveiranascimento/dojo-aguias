@@ -1,0 +1,44 @@
+.karate_skils_caintainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rem;
+  z-index: 999;
+  transition: all 0.5s;
+  h1 {
+    z-index: 2;
+  }
+}
+
+.skil_block_cintainer {
+  display: flex;
+}
+
+.skils_block {
+  z-index: 2;
+  margin: 2rem;
+  width: 18rem;
+  height: 18rem;
+  background: rgb(255, 255, 255);
+  transition: all 0.2s;
+  cursor: pointer;
+  
+}
+
+.skils_block:hover {
+  background: rgb(222, 185, 52);
+  width: 20rem;
+  height: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .karate_skils_caintainer {
+    flex-direction: column;
+  }
+  .skil_block_cintainer {
+    flex-direction: column;
+  }
+}

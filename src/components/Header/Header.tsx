@@ -6,10 +6,7 @@ function Header() {
 
   const [scroll, setScroll] = useState(0)
 
-  const verifyScroll = () => setInterval(() => {
-    setScroll(window.scrollY)
-    console.log(window.scrollY)
-  }, 100);
+  const verifyScroll = () => setInterval(() => setScroll(window.scrollY), 100);
 
   const updateScroll = () => {
     verifyScroll()
