@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background-color: rgba(0,0,0,0.0);
+  align-items: center;
+  display: flex;
+  transition: all 0.5s;
+  position: fixed;
+  color: white;
+  justify-content: center;
+  z-index: 99;
+  flex-direction: column;
+}
+
+.header_container {
+  max-width: 1720px;
+  display: flex;
+  transition: all 0.5s;
+
+  a {
+    margin: 15px;
+    transition: all 0.5s;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  a:hover {
+    filter: brightness(50%);
+  }
+}
+
+.header_footer_bar {
+  width: 30%;
+  height: 1px;
+  background-color: white;
+  transition: all 0.5s;
+}
