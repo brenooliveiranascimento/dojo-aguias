@@ -1,0 +1,28 @@
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../src/Images/home-2.png")fixed center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.hero_brightness {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.hero_content {
+  z-index: 1;
+  display: flex;
+
+  h1 {
+    font-size: 30px;
+  }
+}
