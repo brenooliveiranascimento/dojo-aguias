@@ -23,6 +23,15 @@
   display: flex;
 
   h1 {
-    font-size: 30px;
+    font-size: 3rem;
   }
+  span {
+    font-size: 2rem;
+    margin-top: -3rem;
+  }
+}
+
+.herro_message {
+  display: flex;
+  flex-direction: column;
 }
