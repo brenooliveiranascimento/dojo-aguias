@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,0.0);
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  position: fixed;
+  color: white;
+  justify-content: center;
+  z-index: 1;
+  flex-direction: column;
+
+}
+
+.header_container {
+  max-width: 1720px;
+  display: flex;
+
+  a {
+    margin: 10px;
+    transition: all 0.5s;
+    font-weight: 500;
+  }
+
+  a:hover {
+    filter: brightness(50%);
+  }
+}
