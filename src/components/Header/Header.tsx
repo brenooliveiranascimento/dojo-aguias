@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 function Header() {
   return (
     <header className={styles.header}>
-      <h2>Links úteis</h2>
+      <h1>Links úteis</h1>
       <section className={styles.header_container}>
         <nav>
           <Link href="about">

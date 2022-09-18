@@ -16,11 +16,13 @@
 .header_container {
   max-width: 1720px;
   display: flex;
+  margin-top: 2rem;
 
   a {
-    margin: 10px;
+    margin: 15px;
     transition: all 0.5s;
     font-weight: 500;
+    font-size: 1.3rem;
   }
 
   a:hover {
