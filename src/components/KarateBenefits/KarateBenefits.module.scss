@@ -1,5 +1,48 @@
 .karate_benefits_container {
   width: 100%;
-  background-color: aqua;
   display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.karate_content {
+  max-width: 1320px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.body {
+  max-width: 500px;
+  margin-left: 3rem;
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.image {
+  max-width: 600px;
+  max-height: 600px;
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (max-width: 953px) {
+.karate_benefits_container {
+  flex-direction: column;
+}
+
+.karate_content {
+  flex-direction: column;
+}
+
+.body {
+  margin-left: 0rem;
+}
 }

@@ -19,7 +19,7 @@ function SkillCard({karateInf, index}: {karateInf: string, index: number}) {
   return (
     <section
       style={{
-        marginTop: scroll > 150 ? '0rem' : '20rem',
+        marginTop: scroll > 110 ? '0rem' : '50rem',
         transition: `all 0.${index}s`,
       }}
       className={styles.skils_block}
