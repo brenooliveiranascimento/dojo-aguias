@@ -19,7 +19,7 @@ function Header() {
 
   return (
     <header style={{
-      backgroundColor: scroll > 125 ? 'rgba(0,0,0,0.7)' : 'rgba(0,0,0,0.0)',
+      backgroundColor: scroll > 125 ? 'rgba(0,0,0,0.9)' : 'rgba(0,0,0,0.0)',
       padding: scroll > 125 ? '1rem' : '2rem' ,
       }}
       className={styles.header}>

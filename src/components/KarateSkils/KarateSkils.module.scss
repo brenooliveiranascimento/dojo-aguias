@@ -1,11 +1,11 @@
 .karate_skils_caintainer {
   display: flex;
   width: 100%;
-  height: auto;
+  min-height: 30rem;
   z-index: 99;
   align-items: center;
   justify-content: center;
-  margin-top: -10rem;
+  margin-top: -13rem;
   z-index: 999;
   transition: all 0.5s;
   h1 {
@@ -37,6 +37,7 @@
 @media screen and (max-width: 1000px) {
   .karate_skils_caintainer {
     flex-direction: column;
+    margin-top: -5rem;
   }
   .skil_block_cintainer {
     flex-direction: column;
